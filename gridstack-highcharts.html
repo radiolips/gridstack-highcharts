@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>A dashboard with charts!</title>
+		<script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.0/jquery-ui.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
+		<script type="text/javascript" src="https://cdn.css.net/libs/gridstack.js/0.3.0/gridstack.js"></script>
+		<script type="text/javascript" src="https://cdn.css.net/libs/gridstack.js/0.3.0/gridstack.jQueryUI.js"></script>
+		<script type="text/javascript" src="gridstack-highcharts.js"></script>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="https://cdn.css.net/libs/gridstack.js/0.3.0/gridstack.min.css" type="text/css" />
+		<style media="screen" type="text/css">
+			.grid-stack-item {
+				border: 1px solid #000;
+			}
+		</style>
+	</head>
+    <body>
+	    <div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="grid-stack" id="grid">
+						<div class="chart-container" data-gs-width="3" data-gs-height="4">
+							<div class="grid-stack-item-content">
+								<div id="container">I love charts</div>
+							</div>
+						</div>
+						<div class="chart-container" data-gs-width="3" data-gs-height="4" data-gs-x="4">
+							<div class="grid-stack-item-content">
+								<div id="container2">Charts 4ever</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
